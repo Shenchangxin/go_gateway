@@ -8,6 +8,15 @@ import (
 	"io"
 )
 
+func GenSaltPassword(salt, password string) string {
+	s1 := sha256.New()
+	s1.Write([]byte(password))
+	str1 := fmt.Sprintf("%x", s1.Sum(nil))
+	s2 := sha256.New()
+	s2.Write([]byte(str1 + salt))
+	return fmt.Sprintf("%x", s2.Sum(nil))
+}
+
 //MD5 md5加密
 func MD5(s string) string {
 	h := md5.New()
@@ -15,33 +24,15 @@ func MD5(s string) string {
 	return fmt.Sprintf("%x", h.Sum(nil))
 }
 
-
-// 获取加盐密码
-func GenSaltPassword(passport string, salt string) (string) {
-	s_ob1 := sha256.New()
-	s_ob1.Write([]byte(passport))
-	rs1 := fmt.Sprintf("%x", s_ob1.Sum(nil))
-	s_ob2 := sha256.New()
-	s_ob2.Write([]byte(rs1 + salt))
-	rs2 := fmt.Sprintf("%x", s_ob2.Sum(nil))
-	return rs2
+func Obj2Json(s interface{}) string {
+	bts, _ := json.Marshal(s)
+	return string(bts)
 }
-
-//InStringList 数组中是否存在某值
-func InStringList(t string, list []string) bool {
-	for _, s := range list {
-		if s == t {
+func InStringSlice(slice []string,str string) bool{
+	for  _,item:=range slice{
+		if str==item{
 			return true
 		}
 	}
 	return false
-}
-
-//对象打印
-func Obj2Json(a interface{}) string {
-	bs, err := json.Marshal(a)
-	if err != nil {
-		return ""
-	}
-	return string(bs)
 }

@@ -8,13 +8,13 @@ import (
 
 type AdminSessionInfo struct {
 	ID        int       `json:"id"`
-	UserName  string    `json:"username"`
+	UserName  string    `json:"user_name"`
 	LoginTime time.Time `json:"login_time"`
 }
 
 type AdminLoginInput struct {
-	UserName string `json:"username" form:"username" commnet:"姓名" example:"admin" validate:"required,is_valid_username"` //管理员用户名
-	PassWord string `json:"password" form:"password" commnet:"密码" example:"123456" validate:"required"`                  //密码
+	UserName string `json:"username" form:"username" comment:"管理员用户名" example:"admin" validate:"required,valid_username"` //管理员用户名
+	Password string `json:"password" form:"password" comment:"密码" example:"123456" validate:"required"`                      //密码
 }
 
 func (param *AdminLoginInput) BindValidParam(c *gin.Context) error {
@@ -22,5 +22,5 @@ func (param *AdminLoginInput) BindValidParam(c *gin.Context) error {
 }
 
 type AdminLoginOutput struct {
-	Token string `json:"token" form:"token" commnet:"token" example:"token" validate:""`
+	Token string `json:"token" form:"token" comment:"token" example:"token" validate:""` //token
 }

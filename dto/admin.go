@@ -16,7 +16,7 @@ type AdminInfoOutput struct {
 }
 
 type ChangePwdInput struct {
-	Password string `json:"password" form:"password" comment:"密码" example:"123456" validate:"required"`
+	Password string `json:"password" form:"password" comment:"密码" example:"123456" validate:"required"` //密码
 }
 
 func (param *ChangePwdInput) BindValidParam(c *gin.Context) error {

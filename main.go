@@ -23,7 +23,7 @@ func main() {
 	}
 
 	if *endpoint == "dashboard" {
-		lib.InitModule("./conf/dev/", []string{"base", "mysql", "redis",})
+		lib.InitModule("./conf/dev/", []string{"base", "mysql", "redis"})
 		defer lib.Destroy()
 		router.HttpServerRun()
 
@@ -33,7 +33,7 @@ func main() {
 		router.HttpServerStop()
 	}
 	if *endpoint == "server" {
-		lib.InitModule("./conf/dev/", []string{"base", "mysql", "redis",})
+		lib.InitModule("./conf/dev/", []string{"base", "mysql", "redis"})
 		defer lib.Destroy()
 		dao.ServiceHandler.LoadOnce()
 		dao.AppHandler.LoadOnce()

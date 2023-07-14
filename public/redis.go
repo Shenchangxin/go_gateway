@@ -5,8 +5,8 @@ import (
 	"github.com/garyburd/redigo/redis"
 )
 
-func RedisConfPipline(name string, pip ...func(c redis.Conn)) error {
-	c, err := lib.RedisConnFactory(name)
+func RedisConfPipline(pip ...func(c redis.Conn)) error {
+	c, err := lib.RedisConnFactory("default")
 	if err != nil {
 		return err
 	}
@@ -16,4 +16,13 @@ func RedisConfPipline(name string, pip ...func(c redis.Conn)) error {
 	}
 	c.Flush()
 	return nil
+}
+
+func RedisConfDo(commandName string, args ...interface{}) (interface{}, error) {
+	c, err := lib.RedisConnFactory("default")
+	if err != nil {
+		return nil,err
+	}
+	defer c.Close()
+	return c.Do(commandName, args...)
 }

@@ -1,35 +1,32 @@
 package public
 
 const (
-	ValidatorKey  = "ValidatorKey"
-	TranslatorKey = "TranslatorKey"
+	ValidatorKey        = "ValidatorKey"
+	TranslatorKey       = "TranslatorKey"
+	AdminSessionInfoKey = "AdminSessionInfoKey"
 
-	//flow_count_key
-	RedisFlowCountDayKey  = "flow_count_day"
-	RedisFlowCountHourKey = "flow_count_hour"
-
-	//flow_limit_prefix
-	FlowServicePrefix = "service_"
-	FlowAPPPrefix     = "app_"
-	FlowTotal         = "total"
-
-	//sessionKey
-	AdminInfoSessionKey = "admin_info"
-
-	//load_type
 	LoadTypeHTTP = 0
 	LoadTypeTCP  = 1
 	LoadTypeGRPC = 2
 
-	//default check setting
-	DefaultCheckMethod    = 0
-	DefaultCheckTimeout   = 2
-	DefaultCheckMaxErrNum = 2
-	DefaultCheckInterval  = 5
+	HTTPRuleTypePrefixURL = 0
+	HTTPRuleTypeDomain    = 1
+
+	RedisFlowDayKey  = "flow_day_count"
+	RedisFlowHourKey = "flow_hour_count"
+
+	FlowTotal          = "flow_total"
+	FlowServicePrefix  = "flow_service_"
+	FlowAppPrefix = "flow_app_"
+
+	JwtSignKey = "my_sign_key"
+	JwtExpires = 60*60
 )
 
-var LoadTypeMap = map[int]string{
-	LoadTypeHTTP: "HTTP",
-	LoadTypeTCP:  "TCP",
-	LoadTypeGRPC: "GRPC",
-}
+var (
+	LoadTypeMap = map[int]string{
+		LoadTypeHTTP: "HTTP",
+		LoadTypeTCP:  "TCP",
+		LoadTypeGRPC: "GRPC",
+	}
+)
