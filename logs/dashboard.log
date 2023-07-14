@@ -1,0 +1,514 @@
+2020/05/17 17:04:23 ------------------------------------------------------------------------
+2020/05/17 17:04:23 [INFO]  config=./conf/dev/
+2020/05/17 17:04:23 [INFO]  start loading resources.
+2020/05/17 17:04:23 [INFO]  success loading resources.
+2020/05/17 17:04:23 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/e421083458/go_gateway/router.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] POST   /admin_login/login        --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLogin-fm (7 handlers)
+[GIN-debug] GET    /admin_login/logout       --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLoginOut-fm (7 handlers)
+[GIN-debug] GET    /admin/admin_info         --> github.com/e421083458/go_gateway/controller.(*AdminController).AdminInfo-fm (8 handlers)
+[GIN-debug] POST   /admin/change_pwd         --> github.com/e421083458/go_gateway/controller.(*AdminController).ChangePwd-fm (8 handlers)
+[GIN-debug] GET    /service/service_list     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceList-fm (8 handlers)
+[GIN-debug] GET    /service/service_delete   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDelete-fm (8 handlers)
+[GIN-debug] GET    /service/service_detail   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDetail-fm (8 handlers)
+[GIN-debug] GET    /service/service_stat     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceStat-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_tcp  --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_tcp --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddGrpc-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateGrpc-fm (8 handlers)
+[GIN-debug] GET    /app/app_list             --> github.com/e421083458/go_gateway/controller.(*APPController).APPList-fm (8 handlers)
+[GIN-debug] GET    /app/app_detail           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDetail-fm (8 handlers)
+[GIN-debug] GET    /app/app_stat             --> github.com/e421083458/go_gateway/controller.(*APPController).AppStatistics-fm (8 handlers)
+[GIN-debug] GET    /app/app_delete           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDelete-fm (8 handlers)
+[GIN-debug] POST   /app/app_add              --> github.com/e421083458/go_gateway/controller.(*APPController).AppAdd-fm (8 handlers)
+[GIN-debug] POST   /app/app_update           --> github.com/e421083458/go_gateway/controller.(*APPController).AppUpdate-fm (8 handlers)
+[GIN-debug] GET    /dashboard/panel_group_data --> github.com/e421083458/go_gateway/controller.(*DashboardController).PanelGroupData-fm (8 handlers)
+[GIN-debug] GET    /dashboard/flow_stat      --> github.com/e421083458/go_gateway/controller.(*DashboardController).FlowStat-fm (8 handlers)
+[GIN-debug] GET    /dashboard/service_stat   --> github.com/e421083458/go_gateway/controller.(*DashboardController).ServiceStat-fm (8 handlers)
+2020/05/17 17:04:23  [INFO] HttpServerRun::8880
+2020/05/17 17:07:40  [INFO] HttpServerStop stopped
+2020/05/17 17:07:40 ------------------------------------------------------------------------
+2020/05/17 17:07:40 [INFO]  start destroy resources.
+2020/05/17 17:07:40 [INFO]  success destroy resources.
+2020/05/17 17:07:40  [ERROR] HttpServerRun::8880 err:http: Server closed
+2020/05/17 17:07:40 ------------------------------------------------------------------------
+2020/05/17 17:07:40 [INFO]  config=./conf/dev/
+2020/05/17 17:07:40 [INFO]  start loading resources.
+2020/05/17 17:07:40 [INFO]  success loading resources.
+2020/05/17 17:07:40 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/e421083458/go_gateway/router.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] POST   /admin_login/login        --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLogin-fm (7 handlers)
+[GIN-debug] GET    /admin_login/logout       --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLoginOut-fm (7 handlers)
+[GIN-debug] GET    /admin/admin_info         --> github.com/e421083458/go_gateway/controller.(*AdminController).AdminInfo-fm (8 handlers)
+[GIN-debug] POST   /admin/change_pwd         --> github.com/e421083458/go_gateway/controller.(*AdminController).ChangePwd-fm (8 handlers)
+[GIN-debug] GET    /service/service_list     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceList-fm (8 handlers)
+[GIN-debug] GET    /service/service_delete   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDelete-fm (8 handlers)
+[GIN-debug] GET    /service/service_detail   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDetail-fm (8 handlers)
+[GIN-debug] GET    /service/service_stat     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceStat-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_tcp  --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_tcp --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddGrpc-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateGrpc-fm (8 handlers)
+[GIN-debug] GET    /app/app_list             --> github.com/e421083458/go_gateway/controller.(*APPController).APPList-fm (8 handlers)
+[GIN-debug] GET    /app/app_detail           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDetail-fm (8 handlers)
+[GIN-debug] GET    /app/app_stat             --> github.com/e421083458/go_gateway/controller.(*APPController).AppStatistics-fm (8 handlers)
+[GIN-debug] GET    /app/app_delete           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDelete-fm (8 handlers)
+[GIN-debug] POST   /app/app_add              --> github.com/e421083458/go_gateway/controller.(*APPController).AppAdd-fm (8 handlers)
+[GIN-debug] POST   /app/app_update           --> github.com/e421083458/go_gateway/controller.(*APPController).AppUpdate-fm (8 handlers)
+[GIN-debug] GET    /dashboard/panel_group_data --> github.com/e421083458/go_gateway/controller.(*DashboardController).PanelGroupData-fm (8 handlers)
+[GIN-debug] GET    /dashboard/flow_stat      --> github.com/e421083458/go_gateway/controller.(*DashboardController).FlowStat-fm (8 handlers)
+[GIN-debug] GET    /dashboard/service_stat   --> github.com/e421083458/go_gateway/controller.(*DashboardController).ServiceStat-fm (8 handlers)
+2020/05/17 17:07:40  [INFO] HttpServerRun::8880
+[GIN] 2020/05/17 - 17:25:52 | 200 |   36.032241ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 17:25:53 | 200 |  109.229034ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 17:25:54 | 200 |  159.098945ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 17:25:54 | 200 |  182.969771ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 17:26:06 | 200 |    1.065709ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 17:26:07 | 200 |    13.26081ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 17:26:07 | 200 |   15.833961ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 17:26:07 | 200 |   34.262313ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 17:26:09 | 200 |   44.572477ms |       127.0.0.1 | GET      /service/service_list?page_no=1&page_size=20&info=&page=1
+[GIN] 2020/05/17 - 17:26:10 | 200 |    6.924709ms |       127.0.0.1 | GET      /app/app_list?page_no=1&page_size=20&info=
+[GIN] 2020/05/17 - 17:34:18 | 200 |     9.41331ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 17:34:21 | 200 |  101.383829ms |       127.0.0.1 | GET      /service/service_list?page_no=1&page_size=20&info=&page=1
+[GIN] 2020/05/17 - 17:34:22 | 200 |    4.017149ms |       127.0.0.1 | GET      /app/app_list?page_no=1&page_size=20&info=
+[GIN] 2020/05/17 - 17:34:24 | 200 |     7.84165ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 17:34:24 | 200 |   20.729595ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 17:34:24 | 200 |   40.190943ms |       127.0.0.1 | GET      /dashboard/flow_stat
+reqCounter.GetDayData err read tcp 127.0.0.1:64278->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64280->127.0.0.1:6379: i/o timeout
+[GIN] 2020/05/17 - 17:35:11 | 200 |   29.479033ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 17:35:11 | 200 |     39.0784ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 17:35:11 | 200 |   35.308292ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 17:35:25 | 200 |  109.971316ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 17:35:25 | 200 |    67.69743ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 17:35:25 | 200 |  218.872052ms |       127.0.0.1 | GET      /dashboard/flow_stat
+reqCounter.GetDayData err read tcp 127.0.0.1:65263->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65264->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65260->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65262->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65270->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65272->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65309->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65314->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65313->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65312->127.0.0.1:6379: i/o timeout
+[GIN] 2020/05/17 - 17:35:54 | 200 |    1.074796ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 17:35:54 | 200 |    3.320056ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 17:35:54 | 200 |   10.555658ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 17:35:54 | 200 |   30.106028ms |       127.0.0.1 | GET      /dashboard/flow_stat
+reqCounter.GetDayData err read tcp 127.0.0.1:57137->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:57139->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58172->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58174->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64550->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64552->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64554->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64563->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64564->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64565->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64566->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65064->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65060->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65061->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:65063->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:61431->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:61433->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:61435->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63186->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63184->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63187->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63185->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63228->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60866->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63534->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58665->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58667->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58669->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59075->127.0.0.1:6379: i/o timeout
+[GIN] 2020/05/17 - 20:33:44 | 200 |  126.287131ms |       127.0.0.1 | POST     /admin_login/login
+[GIN] 2020/05/17 - 20:33:44 | 200 |    2.309559ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 20:33:45 | 200 |   30.633973ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 20:33:45 | 200 |   110.33744ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 20:33:45 | 200 |  116.108962ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 20:33:50 | 200 |    2.431658ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 20:33:51 | 200 |    8.628427ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 20:33:51 | 200 |    6.929619ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 20:33:51 | 200 |   25.256938ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 20:33:57 | 200 |    3.808614ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 20:33:57 | 200 |    5.422162ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 20:33:57 | 200 |   22.845873ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 20:33:57 | 200 |   17.569267ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 20:34:07 | 200 |    9.021157ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 20:34:08 | 200 |   10.401644ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 20:34:08 | 200 |   41.105308ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 20:34:08 | 200 |   57.635875ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 20:34:11 | 200 |    59.80224ms |       127.0.0.1 | GET      /service/service_list?page_no=1&page_size=20&info=&page=1
+[GIN] 2020/05/17 - 20:34:21 | 200 |   14.914544ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 20:34:21 | 200 |   22.259592ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 20:34:21 | 200 |  289.457012ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 20:34:23 | 200 |   44.085887ms |       127.0.0.1 | GET      /service/service_list?page_no=1&page_size=20&info=&page=1
+reqCounter.GetDayData err read tcp 127.0.0.1:50412->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50414->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50416->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50600->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50596->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50599->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50605->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50606->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50607->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50608->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:53315->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:53317->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:53316->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:53318->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55336->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55356->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55538->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55537->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55536->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55535->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:55541->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56036->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56038->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56040->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56042->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56282->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56284->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56286->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56607->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56743->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56740->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56741->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56742->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56928->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56929->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56930->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:56927->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58245->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58343->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58346->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58345->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:58344->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59043->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59038->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59041->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59042->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59045->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59131->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59171->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59189->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59191->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59193->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59195->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59207->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59203->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59206->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59205->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59211->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59213->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59215->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59217->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59226->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59227->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59229->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59228->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59231->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59233->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59235->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59237->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59248->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59249->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59247->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59246->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59252->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59254->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59256->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59258->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59294->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59297->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59298->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59308->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59307->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59309->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59310->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59314->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59316->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59320->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59318->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59336->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59398->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59400->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59402->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59410->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59411->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59413->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59412->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59423->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59443->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59445->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59447->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59527->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59529->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59531->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59545->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59615->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59617->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:59619->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60098->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60097->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60096->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60095->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60100->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60264->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60354->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60356->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60358->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60368->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60374->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60378->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:60376->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62540->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62542->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62541->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62543->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62633->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62635->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62637->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62675->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62677->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62679->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62684->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62685->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62686->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62687->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62818->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62840->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62842->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62844->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62860->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62862->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:62864->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63026->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63028->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63033->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63036->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63035->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63034->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63038->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63173->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63175->127.0.0.1:6379: i/o timeout
+[GIN] 2020/05/17 - 20:46:11 | 200 |    58.61036ms |       127.0.0.1 | POST     /admin_login/login
+[GIN] 2020/05/17 - 20:46:12 | 200 |    6.778724ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+reqCounter.GetDayData err read tcp 127.0.0.1:63313->127.0.0.1:6379: i/o timeout
+[GIN] 2020/05/17 - 20:46:13 | 200 |   84.535606ms |       127.0.0.1 | GET      /service/service_list?page_no=1&page_size=20&info=&page=1
+reqCounter.GetDayData err read tcp 127.0.0.1:63805->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63807->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63808->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63809->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63974->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63973->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63971->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:63972->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64021->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:64023->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:49605->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:49611->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:49609->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50211->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50210->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50213->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50212->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50558->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50557->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50562->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:50561->127.0.0.1:6379: i/o timeout
+reqCounter.GetDayData err read tcp 127.0.0.1:51142->127.0.0.1:6379: i/o timeout
+2020/05/17 20:49:43  [INFO] HttpServerStop stopped
+2020/05/17 20:49:43 ------------------------------------------------------------------------
+2020/05/17 20:49:43 [INFO]  start destroy resources.
+2020/05/17 20:49:43 [INFO]  success destroy resources.
+2020/05/17 20:49:43  [ERROR] HttpServerRun::8880 err:http: Server closed
+2020/05/17 20:49:43 ------------------------------------------------------------------------
+2020/05/17 20:49:43 [INFO]  config=./conf/prod/
+2020/05/17 20:49:43 [INFO]  start loading resources.
+2020/05/17 20:49:43 [INFO]  success loading resources.
+2020/05/17 20:49:43 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/e421083458/go_gateway/router.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] POST   /admin_login/login        --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLogin-fm (7 handlers)
+[GIN-debug] GET    /admin_login/logout       --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLoginOut-fm (7 handlers)
+[GIN-debug] GET    /admin/admin_info         --> github.com/e421083458/go_gateway/controller.(*AdminController).AdminInfo-fm (8 handlers)
+[GIN-debug] POST   /admin/change_pwd         --> github.com/e421083458/go_gateway/controller.(*AdminController).ChangePwd-fm (8 handlers)
+[GIN-debug] GET    /service/service_list     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceList-fm (8 handlers)
+[GIN-debug] GET    /service/service_delete   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDelete-fm (8 handlers)
+[GIN-debug] GET    /service/service_detail   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDetail-fm (8 handlers)
+[GIN-debug] GET    /service/service_stat     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceStat-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_tcp  --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_tcp --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddGrpc-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateGrpc-fm (8 handlers)
+[GIN-debug] GET    /app/app_list             --> github.com/e421083458/go_gateway/controller.(*APPController).APPList-fm (8 handlers)
+[GIN-debug] GET    /app/app_detail           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDetail-fm (8 handlers)
+[GIN-debug] GET    /app/app_stat             --> github.com/e421083458/go_gateway/controller.(*APPController).AppStatistics-fm (8 handlers)
+[GIN-debug] GET    /app/app_delete           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDelete-fm (8 handlers)
+[GIN-debug] POST   /app/app_add              --> github.com/e421083458/go_gateway/controller.(*APPController).AppAdd-fm (8 handlers)
+[GIN-debug] POST   /app/app_update           --> github.com/e421083458/go_gateway/controller.(*APPController).AppUpdate-fm (8 handlers)
+[GIN-debug] GET    /dashboard/panel_group_data --> github.com/e421083458/go_gateway/controller.(*DashboardController).PanelGroupData-fm (8 handlers)
+[GIN-debug] GET    /dashboard/flow_stat      --> github.com/e421083458/go_gateway/controller.(*DashboardController).FlowStat-fm (8 handlers)
+[GIN-debug] GET    /dashboard/service_stat   --> github.com/e421083458/go_gateway/controller.(*DashboardController).ServiceStat-fm (8 handlers)
+2020/05/17 20:49:43  [INFO] HttpServerRun::8880
+[GIN] 2020/05/17 - 20:54:15 | 404 |       1.049µs |       127.0.0.1 | GET      /dist/
+[GIN] 2020/05/17 - 20:54:20 | 404 |         704ns |       127.0.0.1 | GET      /favicon.ico
+2020/05/17 20:54:35  [INFO] HttpServerStop stopped
+2020/05/17 20:54:35 ------------------------------------------------------------------------
+2020/05/17 20:54:35 [INFO]  start destroy resources.
+2020/05/17 20:54:35 [INFO]  success destroy resources.
+2020/05/17 20:54:36 ------------------------------------------------------------------------
+2020/05/17 20:54:36 [INFO]  config=./conf/prod/
+2020/05/17 20:54:36 [INFO]  start loading resources.
+2020/05/17 20:54:36 [INFO]  success loading resources.
+2020/05/17 20:54:36 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> github.com/e421083458/go_gateway/router.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] POST   /admin_login/login        --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLogin-fm (7 handlers)
+[GIN-debug] GET    /admin_login/logout       --> github.com/e421083458/go_gateway/controller.(*AdminLoginController).AdminLoginOut-fm (7 handlers)
+[GIN-debug] GET    /admin/admin_info         --> github.com/e421083458/go_gateway/controller.(*AdminController).AdminInfo-fm (8 handlers)
+[GIN-debug] POST   /admin/change_pwd         --> github.com/e421083458/go_gateway/controller.(*AdminController).ChangePwd-fm (8 handlers)
+[GIN-debug] GET    /service/service_list     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceList-fm (8 handlers)
+[GIN-debug] GET    /service/service_delete   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDelete-fm (8 handlers)
+[GIN-debug] GET    /service/service_detail   --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceDetail-fm (8 handlers)
+[GIN-debug] GET    /service/service_stat     --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceStat-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_http --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateHTTP-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_tcp  --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_tcp --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateTcp-fm (8 handlers)
+[GIN-debug] POST   /service/service_add_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceAddGrpc-fm (8 handlers)
+[GIN-debug] POST   /service/service_update_grpc --> github.com/e421083458/go_gateway/controller.(*ServiceController).ServiceUpdateGrpc-fm (8 handlers)
+[GIN-debug] GET    /app/app_list             --> github.com/e421083458/go_gateway/controller.(*APPController).APPList-fm (8 handlers)
+[GIN-debug] GET    /app/app_detail           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDetail-fm (8 handlers)
+[GIN-debug] GET    /app/app_stat             --> github.com/e421083458/go_gateway/controller.(*APPController).AppStatistics-fm (8 handlers)
+[GIN-debug] GET    /app/app_delete           --> github.com/e421083458/go_gateway/controller.(*APPController).APPDelete-fm (8 handlers)
+[GIN-debug] POST   /app/app_add              --> github.com/e421083458/go_gateway/controller.(*APPController).AppAdd-fm (8 handlers)
+[GIN-debug] POST   /app/app_update           --> github.com/e421083458/go_gateway/controller.(*APPController).AppUpdate-fm (8 handlers)
+[GIN-debug] GET    /dashboard/panel_group_data --> github.com/e421083458/go_gateway/controller.(*DashboardController).PanelGroupData-fm (8 handlers)
+[GIN-debug] GET    /dashboard/flow_stat      --> github.com/e421083458/go_gateway/controller.(*DashboardController).FlowStat-fm (8 handlers)
+[GIN-debug] GET    /dashboard/service_stat   --> github.com/e421083458/go_gateway/controller.(*DashboardController).ServiceStat-fm (8 handlers)
+[GIN-debug] GET    /dist/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /dist/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+2020/05/17 20:54:36  [INFO] HttpServerRun::8880
+[GIN] 2020/05/17 - 20:54:38 | 200 |   16.818099ms |       127.0.0.1 | GET      /dist/
+[GIN] 2020/05/17 - 20:54:39 | 200 |     457.627µs |       127.0.0.1 | GET      /dist/static/css/chunk-libs.3dfb7769.css
+[GIN] 2020/05/17 - 20:54:39 | 200 |    6.572104ms |       127.0.0.1 | GET      /dist/static/css/app.c068a7d0.css
+[GIN] 2020/05/17 - 20:54:39 | 200 |    2.329277ms |       127.0.0.1 | GET      /dist/static/js/app.5de3b04a.js
+[GIN] 2020/05/17 - 20:54:39 | 200 |     4.95485ms |       127.0.0.1 | GET      /dist/static/js/chunk-libs.1c62dbb0.js
+[GIN] 2020/05/17 - 20:54:39 | 200 |   34.391793ms |       127.0.0.1 | GET      /dist/static/js/chunk-elementUI.1f3a4f31.js
+[GIN] 2020/05/17 - 20:54:45 | 404 |         912ns |       127.0.0.1 | GET      /prod-api/admin/admin_info?token=admin
+[GIN] 2020/05/17 - 20:54:45 | 200 |     473.373µs |       127.0.0.1 | GET      /dist/static/css/chunk-830154a6.93d95231.css
+[GIN] 2020/05/17 - 20:54:45 | 200 |     634.193µs |       127.0.0.1 | GET      /dist/static/js/chunk-830154a6.9479ea7f.js
+[GIN] 2020/05/17 - 20:54:46 | 200 |    1.098192ms |       127.0.0.1 | GET      /dist/static/fonts/element-icons.535877f5.woff
+[GIN] 2020/05/17 - 20:54:47 | 200 |    1.736876ms |       127.0.0.1 | GET      /dist/favicon.ico
+[GIN] 2020/05/17 - 20:54:56 | 304 |      576.63µs |       127.0.0.1 | GET      /dist/static/css/chunk-libs.3dfb7769.css
+[GIN] 2020/05/17 - 20:54:56 | 304 |     1.93133ms |       127.0.0.1 | GET      /dist/static/css/app.c068a7d0.css
+[GIN] 2020/05/17 - 20:54:56 | 304 |     595.194µs |       127.0.0.1 | GET      /dist/static/css/chunk-830154a6.93d95231.css
+[GIN] 2020/05/17 - 20:55:01 | 404 |       3.628µs |       127.0.0.1 | POST     /prod-api/admin_login/login
+[GIN] 2020/05/17 - 21:00:36 | 200 |      2.6859ms |       127.0.0.1 | GET      /dist/
+[GIN] 2020/05/17 - 21:00:37 | 200 |     414.741µs |       127.0.0.1 | GET      /dist/static/css/chunk-libs.3dfb7769.css
+[GIN] 2020/05/17 - 21:00:37 | 200 |    5.385955ms |       127.0.0.1 | GET      /dist/static/css/app.c068a7d0.css
+[GIN] 2020/05/17 - 21:00:37 | 200 |      731.45µs |       127.0.0.1 | GET      /dist/static/js/chunk-libs.1c62dbb0.js
+[GIN] 2020/05/17 - 21:00:37 | 200 |     998.602µs |       127.0.0.1 | GET      /dist/static/js/app.ba29d09d.js
+[GIN] 2020/05/17 - 21:00:37 | 200 |  178.924617ms |       127.0.0.1 | GET      /dist/static/js/chunk-elementUI.1f3a4f31.js
+[GIN] 2020/05/17 - 21:00:41 | 200 |    1.071257ms |       127.0.0.1 | GET      /dist/static/css/chunk-830154a6.93d95231.css
+[GIN] 2020/05/17 - 21:00:41 | 200 |    1.314127ms |       127.0.0.1 | GET      /dist/static/js/chunk-830154a6.9479ea7f.js
+[GIN] 2020/05/17 - 21:00:42 | 200 |     926.057µs |       127.0.0.1 | GET      /dist/favicon.ico
+[GIN] 2020/05/17 - 21:00:47 | 200 |     451.423µs |       127.0.0.1 | GET      /dist/static/fonts/element-icons.535877f5.woff
+[GIN] 2020/05/17 - 21:00:47 | 200 |   66.766589ms |       127.0.0.1 | POST     /admin_login/login
+[GIN] 2020/05/17 - 21:00:47 | 200 |   24.040517ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 21:00:47 | 200 |   23.318992ms |       127.0.0.1 | GET      /dist/static/js/chunk-14da9915.e5fd7e52.js
+[GIN] 2020/05/17 - 21:00:47 | 200 |      183.79µs |       127.0.0.1 | GET      /dist/static/css/chunk-0c8f083f.42401dac.css
+[GIN] 2020/05/17 - 21:00:47 | 200 |     321.577µs |       127.0.0.1 | GET      /dist/static/js/chunk-0c8f083f.90d46a85.js
+[GIN] 2020/05/17 - 21:00:49 | 200 |   44.205301ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 21:00:49 | 200 |   37.955986ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 21:00:49 | 200 |   94.627124ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 21:00:56 | 200 |    3.027884ms |       127.0.0.1 | GET      /dist/
+[GIN] 2020/05/17 - 21:00:57 | 200 |     647.273µs |       127.0.0.1 | GET      /dist/static/css/chunk-libs.3dfb7769.css
+[GIN] 2020/05/17 - 21:00:57 | 200 |     575.296µs |       127.0.0.1 | GET      /dist/static/css/app.c068a7d0.css
+[GIN] 2020/05/17 - 21:00:57 | 200 |      858.92µs |       127.0.0.1 | GET      /dist/static/js/chunk-elementUI.1f3a4f31.js
+[GIN] 2020/05/17 - 21:00:57 | 200 |     746.328µs |       127.0.0.1 | GET      /dist/static/js/chunk-libs.1c62dbb0.js
+[GIN] 2020/05/17 - 21:00:57 | 200 |      343.83µs |       127.0.0.1 | GET      /dist/static/js/app.ba29d09d.js
+[GIN] 2020/05/17 - 21:01:00 | 200 |    4.389914ms |       127.0.0.1 | GET      /admin/admin_info?token=admin
+[GIN] 2020/05/17 - 21:01:01 | 200 |     151.792µs |       127.0.0.1 | GET      /dist/static/css/chunk-0c8f083f.42401dac.css
+[GIN] 2020/05/17 - 21:01:01 | 200 |     3.73445ms |       127.0.0.1 | GET      /dist/static/js/chunk-0c8f083f.90d46a85.js
+[GIN] 2020/05/17 - 21:01:01 | 200 |   22.717802ms |       127.0.0.1 | GET      /dist/static/js/chunk-14da9915.e5fd7e52.js
+[GIN] 2020/05/17 - 21:01:02 | 200 |      296.96µs |       127.0.0.1 | GET      /dist/static/fonts/element-icons.535877f5.woff
+[GIN] 2020/05/17 - 21:01:03 | 200 |   20.248685ms |       127.0.0.1 | GET      /dashboard/panel_group_data
+[GIN] 2020/05/17 - 21:01:03 | 200 |   10.796423ms |       127.0.0.1 | GET      /dashboard/service_stat
+[GIN] 2020/05/17 - 21:01:03 | 200 |  117.813693ms |       127.0.0.1 | GET      /dashboard/flow_stat
+[GIN] 2020/05/17 - 21:01:04 | 200 |       591.7µs |       127.0.0.1 | GET      /dist/favicon.ico
+reqCounter.GetDayData err read tcp 192.168.3.4:54328->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54342->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54350->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54354->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54362->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54368->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54422->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54989->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:54999->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55168->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55172->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55188->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55473->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55475->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55477->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55481->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55519->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55523->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55726->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:55839->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:56025->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:56506->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:56919->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:57072->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:57095->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:57494->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:58565->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:59060->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:60143->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:61396->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:62811->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:62897->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:63118->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:53352->192.168.3.4:6379: i/o timeout
+reqCounter.GetDayData err read tcp 192.168.3.4:64886->192.168.3.4:6379: i/o timeout

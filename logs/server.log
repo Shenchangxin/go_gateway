@@ -1,0 +1,104 @@
+2020/05/17 17:04:23 ------------------------------------------------------------------------
+2020/05/17 17:04:23 [INFO]  config=./conf/dev/
+2020/05/17 17:04:23 [INFO]  start loading resources.
+2020/05/17 17:04:23 [INFO]  success loading resources.
+2020/05/17 17:04:23 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+WeightRoundRobinBalance get check conf: [127.0.0.1:6001,50]
+2020/05/17 17:04:23  [INFO] tcp_proxy_run :8401
+2020/05/17 17:04:23  [INFO] https_proxy_run :4433
+2020/05/17 17:04:23  [INFO] http_proxy_run :8080
+WeightRoundRobinBalance get check conf: [127.0.0.1:50055,50]
+2020/05/17 17:04:23  [INFO] grpc_proxy_run :8402
+WeightRoundRobinBalance get check conf: []
+2020/05/17 17:07:40  [INFO] tcp_proxy_stop :8401 stopped
+2020/05/17 17:07:40  [INFO] grpc_proxy_stop :8402 stopped
+2020/05/17 17:07:40  [INFO] http_proxy_stop :8080 stopped
+2020/05/17 17:07:40  [INFO] https_proxy_stop :4433 stopped
+2020/05/17 17:07:40 ------------------------------------------------------------------------
+2020/05/17 17:07:40 [INFO]  start destroy resources.
+2020/05/17 17:07:40 [INFO]  success destroy resources.
+2020/05/17 17:07:40 ------------------------------------------------------------------------
+2020/05/17 17:07:40 [INFO]  config=./conf/dev/
+2020/05/17 17:07:40 [INFO]  start loading resources.
+2020/05/17 17:07:40 [INFO]  success loading resources.
+2020/05/17 17:07:40 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+WeightRoundRobinBalance get check conf: [127.0.0.1:50055,50]
+WeightRoundRobinBalance get check conf: [127.0.0.1:6001,50]
+2020/05/17 17:07:40  [INFO] http_proxy_run :8080
+2020/05/17 17:07:40  [INFO] https_proxy_run :4433
+2020/05/17 17:07:40  [INFO] grpc_proxy_run :8402
+2020/05/17 17:07:40  [INFO] tcp_proxy_run :8401
+WeightRoundRobinBalance get check conf: []
+WeightRoundRobinBalance get check conf: []
+2020/05/17 20:49:43  [INFO] tcp_proxy_stop :8401 stopped
+2020/05/17 20:49:43  [INFO] grpc_proxy_stop :8402 stopped
+2020/05/17 20:49:43  [INFO] http_proxy_stop :8080 stopped
+2020/05/17 20:49:43  [INFO] https_proxy_stop :4433 stopped
+2020/05/17 20:49:43 ------------------------------------------------------------------------
+2020/05/17 20:49:43 [INFO]  start destroy resources.
+2020/05/17 20:49:43 [INFO]  success destroy resources.
+2020/05/17 20:49:43 ------------------------------------------------------------------------
+2020/05/17 20:49:43 [INFO]  config=./conf/prod/
+2020/05/17 20:49:43 [INFO]  start loading resources.
+2020/05/17 20:49:43 [INFO]  success loading resources.
+2020/05/17 20:49:43 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+WeightRoundRobinBalance get check conf: [127.0.0.1:6001,50]
+2020/05/17 20:49:44  [INFO] tcp_proxy_run :8401
+2020/05/17 20:49:44  [INFO] http_proxy_run :8080
+WeightRoundRobinBalance get check conf: [127.0.0.1:50055,50]
+2020/05/17 20:49:44  [INFO] grpc_proxy_run :8402
+2020/05/17 20:49:44  [INFO] https_proxy_run :4433
+WeightRoundRobinBalance get check conf: []
+WeightRoundRobinBalance get check conf: []
+2020/05/17 20:54:35  [INFO] tcp_proxy_stop :8401 stopped
+2020/05/17 20:54:35  [INFO] grpc_proxy_stop :8402 stopped
+2020/05/17 20:54:35  [INFO] http_proxy_stop :8080 stopped
+2020/05/17 20:54:35  [INFO] https_proxy_stop :4433 stopped
+2020/05/17 20:54:35 ------------------------------------------------------------------------
+2020/05/17 20:54:35 [INFO]  start destroy resources.
+2020/05/17 20:54:35 [INFO]  success destroy resources.
+2020/05/17 20:54:36 ------------------------------------------------------------------------
+2020/05/17 20:54:36 [INFO]  config=./conf/prod/
+2020/05/17 20:54:36 [INFO]  start loading resources.
+2020/05/17 20:54:36 [INFO]  success loading resources.
+2020/05/17 20:54:36 ------------------------------------------------------------------------
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+WeightRoundRobinBalance get check conf: [127.0.0.1:6001,50]
+2020/05/17 20:54:37  [INFO] tcp_proxy_run :8401
+2020/05/17 20:54:37  [INFO] https_proxy_run :4433
+2020/05/17 20:54:37  [INFO] http_proxy_run :8080
+WeightRoundRobinBalance get check conf: [127.0.0.1:50055,50]
+2020/05/17 20:54:37  [INFO] grpc_proxy_run :8402
+WeightRoundRobinBalance get check conf: []
+WeightRoundRobinBalance get check conf: []
